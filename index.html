@@ -8,8 +8,39 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1 class="text-xl">Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+<main>
+  <!-- navigation -->
+  <header>
+    <nav class="flex items-center justify-between bg-[#272727] p-3 text-sm">
+      <!-- logo image  -->
+      <div>
+        <img src="https://placehold.co/100x100" alt="" class="size-10">
+      </div>
+
+      <!-- nav links  -->
+      <div class="flex items-center justify-between">
+        <a href="" class="text-sm">link 1</a>
+        <a href="" class="text-sm">link 2</a>
+        <a href="" class="text-sm">link 3</a>
+      </div>
+
+      <!-- get started button -->
+      <div>
+        <button class="bg-white p-2 px-3 uppercase rounded-[5px]">contact us</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="bg-[#272727] h-screen flex-col flex items-center justify-center">
+    <h1>large text here</h1> 
+    <h3>smaller text here</h3>
+    <div>
+      <button>button 1</button>
+      <button>button 1</button>
+    </div>
+  </section>
+</main>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
