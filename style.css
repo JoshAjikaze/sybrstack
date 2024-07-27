@@ -1,1 +1,25 @@
 /* Add styles here */
+@font-face {
+    font-family: "ManifoldCF";
+    src: url('./assets/fonts/ManifoldCF-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Manifold";
+    src: url('./assets/fonts/Manifold-Regular.otf') format('opentype');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+}
+
+.big-banner-text{
+    font-family: "ManifoldCF", sans-serif;
+}
