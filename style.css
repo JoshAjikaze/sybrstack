@@ -20,6 +20,6 @@
     font-family: "Inter", sans-serif;
 }
 
-.big-banner-text{
+.big-banner-text, .card-big-text, .form-big-text{
     font-family: "ManifoldCF", sans-serif;
 }
