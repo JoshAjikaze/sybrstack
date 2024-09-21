@@ -12,14 +12,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Inter", sans-serif;
 }
 
-.big-banner-text, .card-big-text, .form-big-text{
+.big-banner-text,
+.card-big-text,
+.form-big-text {
     font-family: "ManifoldCF", sans-serif;
+}
+
+.bg-gradient-x {
+    background-image: url('/assets/images/banner.svg');
+    background: rgb(47, 47, 47);
+    background: linear-gradient(180deg, rgba(47, 47, 47, 0.9430147058823529) 16%, rgba(101, 101, 101, 1) 43%, rgba(101, 101, 101, 0.7693452380952381) 67%, rgba(47, 47, 47, 0.7833508403361344) 100%);
 }
