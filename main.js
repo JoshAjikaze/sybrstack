@@ -1,1 +1,2 @@
-// Add JS here
+var existingDiv = document.getElementById("copywright");
+existingDiv.innerHTML = `<p>© ${new Date().getFullYear()} SybrStack Technologies. All rights reserved. Various trademarks held by their respective owners.</p>`;

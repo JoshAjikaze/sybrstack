@@ -26,8 +26,17 @@
     font-family: "ManifoldCF", sans-serif;
 }
 
-.bg-gradient-x {
+/* .bg-gradient-x {
     background-image: url('/assets/images/banner.svg');
     background: rgb(47, 47, 47);
     background: linear-gradient(180deg, rgba(47, 47, 47, 0.9430147058823529) 16%, rgba(101, 101, 101, 1) 43%, rgba(101, 101, 101, 0.7693452380952381) 67%, rgba(47, 47, 47, 0.7833508403361344) 100%);
+} */
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
