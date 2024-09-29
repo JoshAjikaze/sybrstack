@@ -15,7 +15,7 @@
 <body>
 
   <!-- navigation -->
-  <header class="fixed top-0 left-0 z-50 w-full">
+  <header id="navbar" class="fixed top-0 left-0 z-[100] w-full">
     <nav class="flex items-center justify-between bg-[#272727]/ p-5 text-sm">
       <!-- logo image  -->
       <div>
@@ -44,14 +44,13 @@
 
   <main class="relative">
 
-
     <!-- banner page -->
-    <section class="bg-black/50 relative text-white">
+    <section class="relative text-white h-[70vh] lg:h-screen">
 
-      <!-- <img src="./assets/images/banner.svg" class="absolute top-0 left-0 w-full h-screen z-0" alt=""> -->
+      <div class="absolute bg-gradient-x w-full h-full z-0"></div>
 
       <section
-        class="container mx-auto px-10 lg:px-0 h-[70vh] w-full lg:h-screen flex-col flex items-center justify-center pt-20 lg:pt-0 gap-y-5">
+        class="absolute z-50 mx-auto px-10 lg:px-0 h-[70vh] w-full lg:h-screen flex-col flex items-center justify-center pt-20 lg:pt-0 gap-y-5 bg-gradient-to-b from-[#272727] to-[#27272700]">
 
         <h1 class="big-banner-text text-4xl lg:text-6xl font-[700] text-left md:text-center leading-[50px]">We Engineer
           Your Success</h1>
@@ -94,7 +93,9 @@
       <div class="bg-[#F0F0F0] py-5">
         <section
           class="container mx-auto xl:px-[100px] h-[30vh] flex flex-col xl:flex-row items-start xl:items-center lg:justify-center">
-          <div class="font-[700] px-10 lg:px-0 text-[32px] md:text-[48px] basis-full lg:basis-1/2 form-big-text text-left">What We Do</div>
+          <div
+            class="font-[700] px-10 lg:px-0 text-[32px] md:text-[48px] basis-full lg:basis-1/2 form-big-text text-left">
+            What We Do</div>
           <div class="basis-1/2 text-left px-10 lg:px-0">
             We combine cutting-edge design thinking with exceptional technical expertise to craft user-centric and
             future-proof software that empowers your business to thrive in the ever-evolving digital landscape.
@@ -104,7 +105,8 @@
 
       <section
         class="container mx-auto  xl:px-[100px] h-[30vh] flex flex-col xl:flex-row items-start xl:items-center lg:justify-center">
-        <div class="font-[700] px-10 lg:px-0 text-[32px] md:text-[48px] basis-full lg:basis-1/2 form-big-text">Who We Are</div>
+        <div class="font-[700] px-10 lg:px-0 text-[32px] md:text-[48px] basis-full lg:basis-1/2 form-big-text">Who We
+          Are</div>
         <div class="basis-1/2 text-left px-10 lg:px-0">
           SybrStack Technologies is a leading software development company in Nigeria, fueled by a team of highly
           skilled and experienced professionals. We are passionate about creating innovative solutions that cater to
@@ -119,7 +121,8 @@
     <section class="min-h-[100vh] pt-16">
       <div class="flex flex-col items-center justify-center">
         <h1 class="font-[700] text-[30px] lg:text-[48px] form-big-text">Unleash Your Potential</h1>
-        <h6 class="font-[500] text-center lg:text-lg px-10">A comprehensive suite of software development services.</h6 </div>
+        <h6 class="font-[500] text-center lg:text-lg px-10">A comprehensive suite of software development services.</h6
+          </div>
 
         <section class="w-full container mx-auto px-10 lg:px-[100px] grid grid-cols-12 gap-5 mt-20">
 
@@ -127,24 +130,30 @@
             class="group hover:bg-[grey] hover:text-white relative col-span-12 lg:col-span-6 xl:col-span-4 h-[357px] bg-[#F0F0F0] rounded-lg p-5 overflow-hidden">
             <h1 class="card-big-text font-bold text-3xl mb-5">Code</h1>
             <h3>We deliver the best-in-class development for your software. </h3>
-            <img src="./assets/images/code_img_1.png" alt="" class="group-hover:-rotate-[15deg] absolute -bottom-5 right-20 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
-            <img src="./assets/images/code_img_2.png" alt="" class="group-hover:rotate-[15deg] absolute -bottom-5 right-0 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
+            <img src="./assets/images/code_img_1.png" alt=""
+              class="group-hover:-rotate-[15deg] absolute -bottom-5 right-20 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
+            <img src="./assets/images/code_img_2.png" alt=""
+              class="group-hover:rotate-[15deg] absolute -bottom-5 right-0 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
           </div>
 
           <div
             class="group hover:bg-[grey] hover:text-white relative col-span-12 lg:col-span-6 xl:col-span-4 h-[357px] bg-[#F0F0F0] rounded-lg p-5 overflow-hidden">
             <h1 class="card-big-text font-bold text-3xl mb-5">Design</h1>
             <h3>We craft designs that delight your users, not confuse them.</h3>
-            <img src="./assets/images/design_img_1.png" alt="" class="group-hover:-rotate-[15deg] absolute -bottom-5 right-20 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
-            <img src="./assets/images/design_img_2.png" alt="" class="group-hover:rotate-[15deg] absolute -bottom-5 right-0 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
+            <img src="./assets/images/design_img_1.png" alt=""
+              class="group-hover:-rotate-[15deg] absolute -bottom-5 right-20 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
+            <img src="./assets/images/design_img_2.png" alt=""
+              class="group-hover:rotate-[15deg] absolute -bottom-5 right-0 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
           </div>
 
           <div
             class="group hover:bg-[grey] hover:text-white relative col-span-12 xl:col-span-4 xl:block h-[357px] bg-[#F0F0F0] rounded-lg p-5 overflow-hidden">
             <h1 class="card-big-text font-bold text-3xl mb-5">Testing</h1>
             <h3>We deliver the best-in-class development for your software. </h3>
-            <img src="./assets/images/testing_img_1.png" alt="" class="group-hover:-rotate-[15deg] absolute -bottom-5 right-20 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
-            <img src="./assets/images/testing_img_2.png" alt="" class="group-hover:rotate-[15deg] absolute -bottom-5 right-0 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
+            <img src="./assets/images/testing_img_1.png" alt=""
+              class="group-hover:-rotate-[15deg] absolute -bottom-5 right-20 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
+            <img src="./assets/images/testing_img_2.png" alt=""
+              class="group-hover:rotate-[15deg] absolute -bottom-5 right-0 w-[194px] h-[194px] transition-all duration-500 ease-in-out">
           </div>`
 
 
@@ -159,7 +168,8 @@
       <section class="container mx-auto px-10 xl:px-[100px] flex flex-col lg:flex-row justify-center gap-y-10">
 
         <div class="basis-1/2">
-          <h1 class="form-big-text font-[700] text-[32px] md:text-[48px] leading-[40px] md:leading-[56px]">Let’s Build Something <br /> Wonderful...</h1>
+          <h1 class="form-big-text font-[700] text-[32px] md:text-[48px] leading-[40px] md:leading-[56px]">Let’s Build
+            Something <br /> Wonderful...</h1>
         </div>
 
         <form action="" class="basis-1/2 grid grid-cols-12 gap-2 md:gap-5">
@@ -189,7 +199,8 @@
           </div>
 
           <div class="col-span-12 flex items-center justify-end">
-            <button type="submit" class="w-full md:w-[200px] p-3 px-5 bg-black text-white font-semibold rounded-[8px]">SEND MESSAGE</button>
+            <button type="submit"
+              class="w-full md:w-[200px] p-3 px-5 bg-black text-white font-semibold rounded-[8px]">SEND MESSAGE</button>
           </div>
 
         </form>
@@ -226,9 +237,11 @@
               fill="white" />
           </svg>
           <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 3.28787C0 2.47978 0.270278 1.81311 0.810811 1.28788C1.35134 0.762618 2.05406 0.5 2.91892 0.5C3.76835 0.5 4.45559 0.758569 4.98069 1.27576C5.52123 1.80909 5.79151 2.50402 5.79151 3.3606C5.79151 4.13636 5.52897 4.7828 5.00386 5.29999C4.46333 5.83332 3.7529 6.09999 2.87259 6.09999H2.84942C1.99999 6.09999 1.31275 5.83332 0.787645 5.29999C0.262541 4.76666 0 4.09595 0 3.28787ZM0.301158 24.5V8.30605H5.44402V24.5H0.301158ZM8.29344 24.5H13.4363V15.4576C13.4363 14.8919 13.4981 14.4555 13.6216 14.1485C13.8378 13.599 14.166 13.1343 14.6062 12.7545C15.0463 12.3747 15.5984 12.1848 16.2625 12.1848C17.9923 12.1848 18.8571 13.405 18.8571 15.8454V24.5H24V15.2151C24 12.8232 23.4595 11.0091 22.3784 9.77271C21.2973 8.53635 19.8687 7.91817 18.0927 7.91817C16.1004 7.91817 14.5483 8.81514 13.4363 10.6091V10.6576H13.4131L13.4363 10.6091V8.30605H8.29344C8.32432 8.82321 8.33977 10.4313 8.33977 13.1303C8.33977 15.8293 8.32432 19.6191 8.29344 24.5Z" fill="white"/>
-            </svg>
-            
+            <path
+              d="M0 3.28787C0 2.47978 0.270278 1.81311 0.810811 1.28788C1.35134 0.762618 2.05406 0.5 2.91892 0.5C3.76835 0.5 4.45559 0.758569 4.98069 1.27576C5.52123 1.80909 5.79151 2.50402 5.79151 3.3606C5.79151 4.13636 5.52897 4.7828 5.00386 5.29999C4.46333 5.83332 3.7529 6.09999 2.87259 6.09999H2.84942C1.99999 6.09999 1.31275 5.83332 0.787645 5.29999C0.262541 4.76666 0 4.09595 0 3.28787ZM0.301158 24.5V8.30605H5.44402V24.5H0.301158ZM8.29344 24.5H13.4363V15.4576C13.4363 14.8919 13.4981 14.4555 13.6216 14.1485C13.8378 13.599 14.166 13.1343 14.6062 12.7545C15.0463 12.3747 15.5984 12.1848 16.2625 12.1848C17.9923 12.1848 18.8571 13.405 18.8571 15.8454V24.5H24V15.2151C24 12.8232 23.4595 11.0091 22.3784 9.77271C21.2973 8.53635 19.8687 7.91817 18.0927 7.91817C16.1004 7.91817 14.5483 8.81514 13.4363 10.6091V10.6576H13.4131L13.4363 10.6091V8.30605H8.29344C8.32432 8.82321 8.33977 10.4313 8.33977 13.1303C8.33977 15.8293 8.32432 19.6191 8.29344 24.5Z"
+              fill="white" />
+          </svg>
+
 
         </div>
       </div>
