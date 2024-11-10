@@ -30,6 +30,8 @@
 .bg-gradient-x {
     /* background-color: rgb(47, 47, 47);     */
     background: url('/assets/images/banner.svg'), linear-gradient(to bottom, #ff0000, #00ff00);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-image: url('/assets/images/banner.svg'), linear-gradient(180deg, rgba(47, 47, 47, 0.9430147058823529) 16%, rgba(101, 101, 101, 1) 43%, rgba(101, 101, 101, 0.7693452380952381) 67%, rgba(47, 47, 47, 0.7833508403361344) 100%); */
   }
 
